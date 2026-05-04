@@ -5,4 +5,5 @@ pipelineTemplate(
     imageName: 'reemnabil/service-b',
     imageTag: 'latest',
     containerName: 'service-b-container'
+    port: "9091"
 )
