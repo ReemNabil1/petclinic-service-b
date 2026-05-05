@@ -48,7 +48,7 @@ docker build -t reemnabil/service-b .
 Run container:
 
 ```
-docker run -d -p 9091:8080 reemnabil/service-a
+docker run -d -p 9091:8080 reemnabil/service-b
 ```
 
 ---
@@ -76,10 +76,10 @@ kubectl apply -f k8s/
 ## 🌐 Access
 
 * Docker:
-  http://<server-ip>:9091
+  http://10.145.128.17:9091
 
 * Nginx Reverse Proxy:
-  http://<server-ip>/service-b
+  http://10.145.128.17/service-b
 
 ---
 
